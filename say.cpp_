@@ -1,0 +1,6 @@
+#include "say.h"
+#include <iostream>
+
+void say(const std::string& str){
+	std::cout<<str<<"\n";
+}
