@@ -1,0 +1,20 @@
+/**
+ * Print a simple "Hello world!"
+ *
+ * @file main.cpp
+ * @section LICENSE
+
+    This code is under MIT License, http://opensource.org/licenses/MIT
+ */
+
+#include <iostream>
+#include <vector>
+#include "say.h"
+
+int main() {
+	std::vector<int> vec{1, 2, 3};
+	for(auto& v: vec){
+		std::cout<<v;
+		say(" - Hello World!");
+	}	
+}
